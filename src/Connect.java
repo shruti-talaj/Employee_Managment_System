@@ -4,7 +4,7 @@ import java.sql.SQLException;
 
 public class Connnection {
     public Connection connnect() {
-        String url = " jdbc:mysql://localhost:3306";
+        String url = " jdbc:mysql://localhost:3306/employeemanagment";
         Connection con;
 
         {
